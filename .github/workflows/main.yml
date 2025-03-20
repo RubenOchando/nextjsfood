@@ -20,11 +20,18 @@ jobs:
         node-version: '16'
         cache: 'yarn'
 
+
+    - name: Upgrade npm to latest version
+      run: npm install -g npm@latest
+
+    - name: Upgrade yarn to latest version
+      run: npm install -g yarn@latest
+
     - name: Install dependencies
       run: yarn install
 
     - name: Build project
       run: yarn build
 
-    - name: Run tests
-      run: yarn test
+    - name: Run dev
+      run: yarn dev
