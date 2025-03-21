@@ -22,9 +22,5 @@ jobs:
     - name: Upgrade yarn to latest version
       run: npm install -g yarn@latest
 
-
-    - name: Build project
-      run: yarn build
-
     - name: Run dev
       run: yarn dev
