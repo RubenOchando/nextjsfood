@@ -1,5 +1,6 @@
 import Link from "next/link"
 export default function Allburguers(){
+    console.log('Allburgers page')
     return(
         <main>
             <h1>All burgers site</h1>
