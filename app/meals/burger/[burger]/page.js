@@ -1,5 +1,5 @@
 import Link from "next/link"
-export default function Cheeseburguers(){
+export default function AllBurguers(){
     return(
         <main>
             <h1>cheese burguer site</h1>
